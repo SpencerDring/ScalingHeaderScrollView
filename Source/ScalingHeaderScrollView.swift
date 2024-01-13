@@ -85,10 +85,10 @@ public struct ScalingHeaderScrollView<Header: View, Content: View>: View {
     private var didPullToLoadMore: (() -> Void)?
 
     /// Height for uncollapsed state
-    private var maxHeight: CGFloat = 350.0
+    private var maxHeight: CGFloat = 524.0
 
     /// Height for collapsed state
-    private var minHeight: CGFloat = 150.0
+    private var minHeight: CGFloat = 524.0
 
     /// Allow collapsing while scrolling up
     private var allowsHeaderCollapseFlag: Bool = false
